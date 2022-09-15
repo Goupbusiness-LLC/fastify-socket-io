@@ -1,0 +1,38 @@
+{
+  "name": "fastify-socket-io",
+  "version": "1.0.0",
+  "description": "Fastfiy Socket.io Plugin",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Beyazatli/fastify-socket-io.git"
+  },
+  "keywords": [
+    "Fastify",
+    "Socket",
+    "Fastify",
+    "Socket",
+    "IO",
+    "Fastiy",
+    "Socket.io",
+    "socket.io",
+    "fastify",
+    "socket.ioo",
+    "socket",
+    "io",
+    "fastify"
+  ],
+  "author": "Beyazatli",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Beyazatli/fastify-socket-io/issues"
+  },
+  "homepage": "https://github.com/Beyazatli/fastify-socket-io#readme",
+  "dependencies": {
+    "fastify-plugin": "^4.2.1",
+    "socket.io": "^4.5.2"
+  }
+}
