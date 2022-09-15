@@ -1,5 +1,5 @@
 {
-  "name": "fastify-socket-io",
+  "name": "fastify-plugin-socket.io",
   "version": "1.0.0",
   "description": "Fastfiy Socket.io Plugin",
   "main": "index.js",

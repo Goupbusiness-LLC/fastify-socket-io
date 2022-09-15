@@ -1,21 +1,21 @@
-# fastify-socket-io
-[![NPM](https://nodei.co/npm/fastify-socket-io.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/fastify-socket-io/)
+# fastify-plugin-socket.io
+[![NPM](https://nodei.co/npm/fastify-plugin-socket.io.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/fastify-plugin-socket.io/)
 
 [![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat)](http://standardjs.com/)
 
-`fastify-socket-io` enables the use of [Socket.io](https://socket.io/) in a Fastify application.
+`fastify-plugin-socket.io` enables the use of [Socket.io](https://socket.io/) in a Fastify application.
 
 ## Install
 ```
-yarn add fastify-socket-io
+yarn add fastify-plugin-socket.io
 ```
 
 ## Usage
-Require `fastify-socket-io` and register it as any other plugin, it will add a `io` decorator.
+Require `fastify-plugin-socket.io` and register it as any other plugin, it will add a `io` decorator.
 ```js
 const fastify = require('fastify')()
 
-fastify.register(require('fastify-socket-io'), {
+fastify.register(require('fastify-plugin-socket.io'), {
   // put your socket.io options here
 })
 
